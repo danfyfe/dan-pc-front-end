@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Meter from '../components/Meter.js'
+import MasterMeter from '../components/MasterMeter.js'
 
 function MasterMetersContainer() {
   return(
     <div className='meters-container'>
-      <Meter trackNumber={'L'}/>
-      <Meter trackNumber={'R'}/>
+      <MasterMeter trackNumber={'L'}/>
+      <MasterMeter trackNumber={'R'}/>
     </div>
   )
 }
