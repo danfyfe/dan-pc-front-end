@@ -4,12 +4,13 @@ import Equalizer from '../components/Equalizer.js'
 import Fader from '../components/Fader.js'
 import Label from '../components/Label.js'
 
-function Channel() {
+function Channel(props) {
+  const {trackName} = props
   return(
     <div className='channel'>
       <Equalizer/>
-      <Label/>
       <Fader/>
+      <Label trackName={trackName}/>
     </div>
   )
 }

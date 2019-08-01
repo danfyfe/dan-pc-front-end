@@ -73,18 +73,25 @@
   border: 0.5px solid #3f3f3f;
   width: 10%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .equalizer {
-
-}
-
-.label {
-
+  border-bottom: 0.5px solid #7e7e7e;
+  height: 45%;
 }
 
 .fader {
+  border-top: 0.5px solid #7e7e7e;
+  height: 45%;
+}
 
+.label {
+  background-color: white;
+  height: 10%;
+  text-align: center;
+  font-size: 75%;
 }
 
 .master-channel {
