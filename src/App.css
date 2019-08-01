@@ -128,6 +128,55 @@
   height: 45%;
 }
 
+.fader-guide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.fader-pad {
+  /* transform: rotate(-90deg); */
+  height: 100%;
+  width: 100%;
+  /* -webkit-appearance: none;
+  appearance: none; */
+}
+
+.fader-pad::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+
+}
+
+.fader-pad::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+/* .fader-pad-top {
+  height: 45%;
+}
+
+.fader-pad-middle {
+  background-color: #000;
+  height: 10%;
+}
+
+.fader-pad-bottom {
+  height: 45%;
+} */
+
 .label {
   background-color: #FFFFF5;
   height: 10%;
