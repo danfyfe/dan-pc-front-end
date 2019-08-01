@@ -1,10 +1,10 @@
 import React from 'react'
 
-function LabelsContainer() {
+function Label() {
   return(
-    <div className='labels-container'>
+    <div className='label'>
     </div>
   )
 }
 
-export default LabelsContainer
+export default Label

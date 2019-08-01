@@ -1,10 +1,10 @@
 import React from 'react'
 
-function EqualizersContainer() {
+function Equalizer() {
   return(
-    <div className='equalizers-container'>
+    <div className='equalizer'>
     </div>
   )
 }
 
-export default EqualizersContainer
+export default Equalizer

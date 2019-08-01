@@ -1,10 +1,10 @@
 import React from 'react'
 
-function FadersContainer() {
+function Fader() {
   return(
-    <div className='faders-container'>
+    <div className='fader'>
     </div>
   )
 }
 
-export default FadersContainer
+export default Fader
