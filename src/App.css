@@ -83,6 +83,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 5%;
 }
 
 .freq-eq {
@@ -103,8 +104,23 @@
   background-color: #435669;
 }
 
-.low-eq {
+.filters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1% 1% 5% 1%;
+}
 
+.filters-container > button {
+  border-radius: 5px;
+}
+
+.cut-out {
+  background-color: #a8a8a8;
+}
+
+.cut-in {
+  background-color: grey;
 }
 
 .fader {
