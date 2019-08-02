@@ -1,15 +1,19 @@
 /* main container */
-.main-container {
+.app-top {
   display: flex;
   flex-direction: row;
 }
 
+.app-bottom {
+  display: flex;
+  flex-direction: row;
+}
 /* MPC */
 .mpc-main-container {
   background-color: #d4cec3;
   width: 50%;
   height: 65vh;
-  margin: 5vh 0 5vh 1vw;
+  margin: 2vh 0 1vh 1vw;
   border-radius: 5%;
   display: flex;
   flex-direction: row;
@@ -42,7 +46,7 @@
   background-color: #4d6378;
   width: 50%;
   height: 65vh;
-  margin: 5vh 1vw 5vh 1vw;
+  margin: 2vh 1vw 1vh 1vw;
   border-radius: 1%;
 }
 
@@ -219,6 +223,43 @@
   background-color: #2a2a2a;
   margin: 1% 1%;
   border-radius: 5px;
+}
+
+
+
+
+/* keyboard */
+
+.keyboard {
+  width: 100%;
+  height: 35vh;
+  background-color: #464E51;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.keyboard-display {
+  width: 80%;
+  height: 40%;
+  background-color: black;
+  margin: 2vh auto;
+}
+
+.keys-container {
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  margin: 0 auto;
+  border-top: solid black;
+}
+
+.white-key {
+  background-color: white;
+}
+
+.black-key {
+  background-color: black;
 }
 
 

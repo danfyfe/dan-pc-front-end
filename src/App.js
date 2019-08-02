@@ -7,11 +7,15 @@ import Keyboard from './containers/Keyboard.js'
 
 function App() {
   return (
-    <div className="main-container">
-      <Mpc/>
-      <Mixer/>
-      <Keyboard/>
-    </div>
+    <>
+      <div className="app-top">
+        <Mpc/>
+        <Mixer/>
+      </div>
+      <div className='app-bottom'>
+        <Keyboard/>
+      </div>
+    </>
   );
 }
 
